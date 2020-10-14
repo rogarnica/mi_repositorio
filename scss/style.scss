@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&display=swap');
+@import "colores";
+body {
+    font-family: 'Baloo 2';
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    background-attachment: fixed;
+    margin: 1em;
+}
+.nav{
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.nav-pills {
+  .nav-link {
+    font-weight: 800;
+    font-size: 25px; 
+    color:  $col-yellow ;
+    
+  }
+#active {
+  color: $col-yellow ;
+  background-color: $col-red  ;
+}
+}
+#dropdown{   
+  background-color:$col-red ;
+  a{
+    color:$col-yellow ;
+  }
+}
+.nav-pills {
+  .nav-link.active,
+  .show > .nav-link {
+    color: $col-yellow ;
+    background-color:$col-red ;
+  }
+}
+#logo{
+  text-align: center;
+}
+#main {
+  font-weight: 600;
+  font-size: 20px; 
+  position: relative;
+  background: #ffffff;
+  margin: 30px;  
+  align-items: center;
+  height: 400px;
+  text-align: center;
+}
+#footer{
+  font-weight: 400;
+  text-align: center;
+  padding: 2em 0 0 0;
+	a {
+		color:#d05223;
+		transition: color .25s ease-in-out;
+	}		
+	a:hover{
+		color: #dfcbba;
+	}
+}
+#section{
+  margin: 30px;
+    h2{
+    color: #e74c3c;
+    text-align: center;
+    background-color:  #fffb70 ; 
+    border-radius: 5%;   
+  }
+}
